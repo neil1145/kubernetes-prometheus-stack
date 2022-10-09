@@ -3,7 +3,7 @@
 Create a cluster with [kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
 
 ```
-cd monitoring\prometheus\kubernetes\1.23
+cd monitoring\prometheus\kubernetes\1.23 works with kindest/node:v1.25.2@sha256:9be91e9e9cdf116809841fc77ebdb8845443c4c72fe5218f3ae9eb57fdb4bace
 
 kind create cluster --name monitoring --image kindest/node:v1.23.6 --config kind.yaml
 ```
