@@ -43,7 +43,7 @@ spec:
           value: "tcp://localhost:8081"
         - name: GRAFANA_IMAGE_RENDERER_SERVICE_PORT
           value: "8081"
-        image: grafana/grafana-image-renderer:3.5.0
+        image: neil1145/grafana-image-renderer:3.5.0
         name: grafana-image-renderer
         resources: {}
         ports:
